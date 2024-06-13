@@ -618,7 +618,7 @@ with col1:
     
 with col2:
     import base64
-    file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\N-fold_Pendulum_angle.gif", "rb")
+    file = open(r"N-fold_Pendulum_angle.gif", "rb")
     contents = file.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file.close()
@@ -664,7 +664,7 @@ with col1:
     
 with col2:
     import base64
-    file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\N-fold_Pendulum_angular_velocity.gif", "rb")
+    file = open(r"N-fold_Pendulum_angular_velocity.gif", "rb")
     contents = file.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file.close()
@@ -721,7 +721,7 @@ with col1:
     
 with col2:
     import base64
-    file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\N-fold_Pendulum_motion.gif", "rb")
+    file = open(r"N-fold_Pendulum_motion.gif", "rb")
     contents = file.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file.close()
