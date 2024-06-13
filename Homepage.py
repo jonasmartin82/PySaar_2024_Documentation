@@ -9,7 +9,7 @@ st.image('logo.png')
 
 st.title("Homepage")
 
-st.write('This website serves as a documentation for the project "Pysaar 2024". All code produced during this project can be found in github: insert github link')
+st.write('This website serves as a documentation for the project "Pysaar 2024". All code produced during this project can be found in github: https://github.com/jonasmartin82/PySaar_2024.git')
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
