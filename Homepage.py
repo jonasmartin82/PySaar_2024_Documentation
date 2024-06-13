@@ -30,7 +30,7 @@ import base64
 #file.close()
 #st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" height="470">', unsafe_allow_html=True,)
 #st.markdown('https://github.com/jonasmartin82/PySaar_2024_Documentation/Single_3-fold_Pendulum.gif')
-st.image('https://github.com/jonasmartin82/PySaar_2024_Documentation/blob/main/Single_3-fold_Pendulum.gif')  
+st.image('https://github.com/jonasmartin82/PySaar_2024_Documentation/blob/d8d428767bd9237f8f2b54db17dee59fa3780532/Single_3-fold_Pendulum.gif')  
   
 st.write('Furthermore the chaotic characteristic of the system was observed and presented in form of an animation. One could see that even small changes in the initial conditions could lead to a totally different behaviour (shown here with the plot below). The starting position of all the Pendulums was in the upper right corner. For further details look into "Kane Methode (Multiple)".')
 
