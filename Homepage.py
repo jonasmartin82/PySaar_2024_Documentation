@@ -24,14 +24,12 @@ st.subheader('Examples of Results')
 st.write('An example for this implementation could be seen below. It shows an 3-fold pendulum and the resulting motion according to the initial conditions. This animation was derived from the Kane Methode. One can notice the layout of the coordinate system: the x axis is horizontal and the y axis vertical while positive values point to the right respectively to the top.')
 
 import base64
-#file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_3-fold_Pendulum.gif", "rb")
-#contents = file.read()
-#data_url = base64.b64encode(contents).decode("utf-8")
-#file.close()
-#st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" height="470">', unsafe_allow_html=True,)
-#st.markdown('https://github.com/jonasmartin82/PySaar_2024_Documentation/Single_3-fold_Pendulum.gif')
-st.markdown('Single_3-fold_Pendulum.gif')  
-  
+file = open(r"Single_3-fold_Pendulum.gif", "rb")
+contents = file.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+file.close()
+st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" height="470">', unsafe_allow_html=True,)
+ 
 st.write('Furthermore the chaotic characteristic of the system was observed and presented in form of an animation. One could see that even small changes in the initial conditions could lead to a totally different behaviour (shown here with the plot below). The starting position of all the Pendulums was in the upper right corner. For further details look into "Kane Methode (Multiple)".')
 
 st.image('Homepage_pic_2.png')
@@ -44,7 +42,6 @@ import base64
 #data_url = base64.b64encode(contents).decode("utf-8")
 #file.close()
 #st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" height="470">', unsafe_allow_html=True,)
-st.markdown('https://github.com/jonasmartin82/PySaar_2024_Documentation/Multiple_3-fold_Pendulum.gif')
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
