@@ -37,11 +37,11 @@ st.image('Homepage_pic_2.png')
 st.write('The animation below shows the moment when the motion of the Pendulums start to differ from one another. From there on it took only moments until the system breaks into total chaos.')
 
 import base64
-#file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Multiple_3-fold_Pendulum.gif", "rb")
-#contents = file.read()
-#data_url = base64.b64encode(contents).decode("utf-8")
-#file.close()
-#st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" height="470">', unsafe_allow_html=True,)
+file = open(r"Multiple_3-fold_Pendulum.gif", "rb")
+contents = file.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+file.close()
+st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" height="470">', unsafe_allow_html=True,)
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
