@@ -233,7 +233,7 @@ with col1:
     
 with col2:
     import base64
-    file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_3-fold_Pendulum.gif", "rb")
+    file = open(r"Single_3-fold_Pendulum.gif", "rb")
     contents = file.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file.close()
@@ -247,7 +247,7 @@ st.subheader('Further Examples')
 st.write('')
 
 import base64
-file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_2-fold_Pendulum.gif", "rb")
+file = open(r"Single_2-fold_Pendulum.gif", "rb")
 contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file.close()
@@ -256,7 +256,7 @@ st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" 
 st.write('')
 
 import base64
-file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_4-fold_Pendulum.gif", "rb")
+file = open(r"Single_4-fold_Pendulum.gif", "rb")
 contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file.close()
@@ -265,7 +265,7 @@ st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" 
 st.write('')
 
 import base64
-file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_6-fold_Pendulum.gif", "rb")
+file = open(r"Single_6-fold_Pendulum.gif", "rb")
 contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file.close()
@@ -274,7 +274,7 @@ st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" 
 st.write('')
 
 import base64
-file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_8-fold_Pendulum.gif", "rb")
+file = open(r"Single_8-fold_Pendulum.gif", "rb")
 contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file.close()
@@ -283,7 +283,7 @@ st.markdown(f'<img src="data:image/gif;base64,{data_url}" alt="gif" width="600" 
 st.write('')
 
 import base64
-file = open(r"C:\Users\jonas\OneDrive\Dokumente\Uni\Master\4. Semester (SS2024)\Python_Kurs\Projekt\Documentation_website\Single_10-fold_Pendulum.gif", "rb")
+file = open(r"Single_10-fold_Pendulum.gif", "rb")
 contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file.close()
